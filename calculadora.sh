@@ -1,9 +1,8 @@
 #!/bin/bash
 
+while True:
 num1 = int(input('digite o primeiro valor:'))
 num2 = int(input('digite o segundo valor:'))
-
-while True:
 
   print('\n escolha a operacao')
   print(' 1 - adição')
