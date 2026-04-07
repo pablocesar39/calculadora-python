@@ -24,8 +24,6 @@ while True:
           print(f"O resultado é: {resultado}")
       except ZeroDivisionError:
             print("Erro: Não é possível realizar divisão por zero.")
-    else:
-            print("Opção inválida!")
             continue
 
     continuar = input("Deseja continuar? (s/n): ").lower()
