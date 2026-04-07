@@ -25,14 +25,15 @@ while True:
       except ZeroDivisionError:
             print("Erro: Não é possível realizar divisão por zero.")
             continue
-
+    else:
+            print("Opção inválida!")
+            continue
     continuar = input("Deseja continuar? (s/n): ").lower()
 
      
     if continuar != 's':
         print("Encerrando...")
         break 
-
   except ValueError:
  
             print("Erro: Entrada inválida!Por favor, digite números.")
