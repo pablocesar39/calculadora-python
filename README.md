@@ -25,6 +25,7 @@ Primeiro, dê permissão de execução:
   - print():Exibe informaçoes,resultado para o usuário.
   -  Estrutura condicional:O if verifica a primeira condição, elif checa alternativas se a anterior for falsa, e else executa se todas falharem.
   -  Tratamento de Erros: "try":Tenta realizar a divisão.  "except ZeroDivisionError": Se num2 for zero, este bloco é executado, impedindo que o programa trave .  "except ValueError": Captura erros caso o usuário digite letras ou símbolos em vez de números quando for perguntado pelos números da operação.
+  -  Adicionado um else para caso o usuário escolha uma operação que não seja 1, 2, 3 ou 4.
   -   Função continue:  Ignora o restante do código atual dentro do loop e volta imediatamente para o início da estrutura while
   -   Continuar : Pergunta ao usuário se ele deseja fazer uma nova operação. O método .lower() converte a resposta para minúsculas.
   -   break : Sai do loop while se a resposta for diferente de 's'
