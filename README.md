@@ -5,9 +5,9 @@ Este projeto utiliza um script shell (`.sh`) para automatizar tarefas. Você pod
 
 ### Pré-requisitos
 - Bash (Linux/MacOS) ou WSL (Windows)
-
   ```
 Faça o dowlond do arquivo na sua maquina use o comando git clone 
+
 
 ### : Executar via Terminal (Bash)
 Navegue até a pasta do projeto
