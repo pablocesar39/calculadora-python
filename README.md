@@ -8,21 +8,12 @@ Este projeto utiliza um script shell (`.sh`) para automatizar tarefas. Você pod
   ```
 Faça o dowlond do arquivo na sua maquina use o comando git clone 
 
-
 ### : Executar via Terminal (Bash)
 Navegue até a pasta do projeto
+use o cd calculadora-python
+
 Primeiro, dê permissão de execução:
 . chmod +x calculadora.sh
 
-Para executar o arquivo sh no seu computador
-
-entre no diretorio do projeto
-
-use o cd projeto-calculadora
-
-de permissão de execução para o arquivo
-
-use o comando chmod +x calculadora_ebac.sh
-
-por ultimo use o comando ./ antes do arquivo
+ comando ./ antes do arquivo
 
