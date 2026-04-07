@@ -26,16 +26,15 @@ while True:
             print("Erro: Não é possível realizar divisão por zero.")
     else:
             print("Opção inválida!")
-            continue # Volta para o início do while
+            continue
 
-        # 2. Pergunta se o usuário quer continuar
     continuar = input("Deseja continuar? (s/n): ").lower()
 
-      # 3. Verifica a condição
+     
     if continuar != 's':
         print("Encerrando...")
-        break # Sai do loop while
+        break 
 
   except ValueError:
-      # Executa se houver erro de valor (ex: letra em vez de número)
+ 
             print("Erro: Entrada inválida!Por favor, digite números.")
